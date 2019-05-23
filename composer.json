@@ -1,0 +1,28 @@
+{
+    "name": "silentnight/hiring-challenges",
+    "description": "PHP OOP Challenge",
+    "authors": [
+        {
+            "name": "Angelo Maragna",
+            "email": "angelo.maragna@silentnight.co.uk"
+        },
+        {
+            "name": "Graham Crocker",
+            "email": "graham.crocker@silentnight.co.uk"
+        },
+        {
+            "name": "Phil Turner",
+            "email": "phil.turner@silentnight.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Silentnight\\Challenge\\": "src",
+            "Silentnight\\Challenge\\Tests\\": "tests"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^7"
+    },
+    "minimum-stability": "dev"
+}
